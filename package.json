@@ -4,7 +4,6 @@
 	"description": "A React library for images galleries",
 	"source": "src/index.ts",
 	"main": "dist/main.js",
-	"types": "dist/types.d.ts",
 	"scripts": {
 		"watch": "parcel watch",
 		"build": "parcel build"
@@ -16,6 +15,10 @@
 	"keywords": [
 		"react"
 	],
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
 	"devDependencies": {
 		"@types/react": "^18.0.29",
 		"@types/react-dom": "^18.0.11",
@@ -32,8 +35,6 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"parcel": "^2.8.3",
 		"prettier": "^2.8.7",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
 		"typescript": "^5.0.2"
 	},
 	"author": "",
