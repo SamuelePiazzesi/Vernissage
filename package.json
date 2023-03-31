@@ -2,9 +2,12 @@
 	"name": "vernissage",
 	"version": "1.0.0",
 	"description": "A React library for images galleries",
-	"main": "n",
+	"source": "src/index.ts",
+	"main": "dist/main.js",
+	"types": "dist/types.d.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"watch": "parcel watch",
+		"build": "parcel build"
 	},
 	"repository": {
 		"type": "git",
@@ -27,6 +30,7 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"parcel": "^2.8.3",
 		"prettier": "^2.8.7",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
